@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HeightUIKitCollectionViewCell" customModule="SwiftDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="191" height="116"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="191" height="116"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="peace love" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lxc-gt-xLn">
+                        <rect key="frame" x="54.5" y="84" width="82.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weimei" translatesAutoresizingMaskIntoConstraints="NO" id="Cgw-jj-yJo">
+                        <rect key="frame" x="28" y="7" width="134" height="69"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="69" id="lIW-wc-gfq"/>
+                            <constraint firstAttribute="width" constant="134" id="sfK-8V-nfF"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Lxc-gt-xLn" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="1mX-uo-yQV"/>
+                <constraint firstItem="Cgw-jj-yJo" firstAttribute="top" secondItem="ZTg-uK-7eu" secondAttribute="top" constant="7" id="4Oy-w7-vcM"/>
+                <constraint firstItem="Lxc-gt-xLn" firstAttribute="top" secondItem="Cgw-jj-yJo" secondAttribute="bottom" constant="8" id="4bu-fw-IFx"/>
+                <constraint firstItem="Cgw-jj-yJo" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="Oaw-PE-0If"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="191" height="116"/>
+            <point key="canvasLocation" x="95.5" y="85"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="weimei" width="330" height="198"/>
+    </resources>
+</document>
