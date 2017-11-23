@@ -42,8 +42,8 @@ class HeightUIKitCustomTableViewCell: UITableViewCell {
         headImage.snp.makeConstraints { (make) in
             make.top.equalTo(0)
             make.left.equalTo(10)
-            make.height.equalTo(30)
-            make.width.equalTo(30)
+            make.height.equalTo(50)
+            make.width.equalTo(100)
         }
         
         addSubview(addressLabel)
@@ -54,7 +54,7 @@ class HeightUIKitCustomTableViewCell: UITableViewCell {
             make.top.equalTo(headImage.snp.bottom)
             make.left.equalTo(10)
             make.height.equalTo(30)
-            make.width.equalTo(100)
+            make.width.equalTo(kScreenWidth)
             
         }
         

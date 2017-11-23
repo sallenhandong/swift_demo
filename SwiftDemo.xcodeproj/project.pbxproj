@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505E16781FC6EF4A001E8900 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E16771FC6EF4A001E8900 /* TestModel.swift */; };
 		90E89747C100D13696973ED9 /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7392C7263CE413A8221237 /* Pods_SwiftDemo.framework */; };
 		93418EA51FBE720100DD12AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93418EA41FBE720100DD12AE /* AppDelegate.swift */; };
 		93418EA71FBE720200DD12AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93418EA61FBE720200DD12AE /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		2B7392C7263CE413A8221237 /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BD69C5B1FC8A7260426748 /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		505E16771FC6EF4A001E8900 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		91CEC69510A09F2CB458A6F0 /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		93418EA11FBE720100DD12AE /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93418EA41FBE720100DD12AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		505E16761FC6EF1A001E8900 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				505E16771FC6EF4A001E8900 /* TestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		505E16791FC70015001E8900 /* WechatActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WechatActionSheet;
+			sourceTree = "<group>";
+		};
 		93418E981FBE720100DD12AE = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +126,7 @@
 		93418EBC1FBE870900DD12AE /* HeightUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				505E16791FC70015001E8900 /* WechatActionSheet */,
 				93418EBF1FBE873400DD12AE /* view */,
 				93418EBD1FBE873200DD12AE /* HeightUIKitViewController.swift */,
 			);
@@ -138,6 +156,7 @@
 		93418F1B1FBEA3FC00DD12AE /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				505E16761FC6EF1A001E8900 /* Model */,
 				93418F1C1FBEA41600DD12AE /* BaseRequest.swift */,
 				93418F1E1FBEA66800DD12AE /* NetworkViewController.swift */,
 			);
@@ -304,6 +323,7 @@
 				93418EC61FBE8B8400DD12AE /* GlobalFile.swift in Sources */,
 				93418EBE1FBE873200DD12AE /* HeightUIKitViewController.swift in Sources */,
 				93418EA71FBE720200DD12AE /* ViewController.swift in Sources */,
+				505E16781FC6EF4A001E8900 /* TestModel.swift in Sources */,
 				93418F1F1FBEA66800DD12AE /* NetworkViewController.swift in Sources */,
 				93418EC21FBE874B00DD12AE /* HeightUIKitTableViewCell.swift in Sources */,
 				93418F191FBEA23100DD12AE /* HeightUIKitCollectionViewCell.swift in Sources */,

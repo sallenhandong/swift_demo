@@ -8,7 +8,7 @@
 
 import UIKit
 private let sectionFirstData:Array<NSString> = ["Button","Label","ImageView","TextField"]
-private let sectionSecondData:Array<NSString> = ["Tableview","CollectionView"]
+private let sectionSecondData:Array<NSString> = ["Tableview","CollectionView","仿微信弹框"]
 private let sectionThirdData:Array<NSString> = ["网络请求"]
 private let sectionFourthData:Array<NSString> = ["等待更新"]
 //private let dataArray:[[[[String]]]] = [[[["Button","Label","ImageView","TextField"],["Tableview","轮播","DatePicker"],["网络请求"],["RxSwift"]]]]
@@ -107,11 +107,18 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource
             navigationController?.pushViewController(vc, animated: true)
             
         }else if indexPath.section == 1{
+            if indexPath.row == 2{
             
-            let vc = HeightUIKitViewController()
-            vc.selectIndex = indexPath.row
-            navigationController?.pushViewController(vc, animated: true)
-            
+
+
+                
+            }else{
+                
+                let vc = HeightUIKitViewController()
+                vc.selectIndex = indexPath.row
+                navigationController?.pushViewController(vc, animated: true)
+            }
+
             
         }else if indexPath.section == 2{
             
